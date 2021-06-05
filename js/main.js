@@ -63,7 +63,7 @@ button.addEventListener('click', () => {
 
     DATA.forEach( (item) => {
         if(item.name == obida.value) {
-            let newH2Element = document.createElement('h2')
+            let newH2Element = document.createElement('h1')
             let newimgElement = document.createElement('img')
 
             let costForm = document.createElement('form')
